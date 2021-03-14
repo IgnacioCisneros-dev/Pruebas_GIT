@@ -1,0 +1,51 @@
+body{
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section{
+    margin: 0 auto;
+    margin-top: 18%;
+    padding: 0;
+    
+}
+
+.modal-context{
+    background-color: dimgray;
+    opacity: .85;
+    padding: 0 20%;
+}
+
+.user-image{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.user-image img{
+    width: 10 px;
+    height: 50 px;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    border:  0;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 90px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
